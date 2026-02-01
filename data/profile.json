@@ -89,7 +89,6 @@
             }
         ]
     },
-    "portfolio":{
         "projects": [
             {
                 "title": "Canadian Wanderlust",
@@ -116,5 +115,5 @@
             "url":"http://www.timbakerdev.com"
             }
         ]
-    }
+    
 }
