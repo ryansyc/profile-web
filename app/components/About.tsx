@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About = () => {
     return (
-        <div
+        <section
             id="about"
             className="flex md:flex-row flex-col items-center md:items-start gap-12 lg:gap-20 bg-slate-900 px-6 md:px-20 lg:px-40 py-16 md:py-24"
         >
@@ -64,7 +64,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

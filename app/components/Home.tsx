@@ -4,7 +4,7 @@ import { Github } from "lucide-react";
 
 const Home = () => {
     return (
-        <div className="relative flex flex-col justify-center items-center bg-slate-900 px-4 sm:px-12 md:px-20 lg:px-40 min-h-screen overflow-hidden">
+        <section className="relative flex flex-col justify-center items-center bg-slate-900 px-4 sm:px-12 md:px-20 lg:px-40 min-h-screen overflow-hidden">
             <h1 className="font-bold text-white text-4xl sm:text-5xl md:text-7xl text-center leading-tight">
                 {home.name}
             </h1>
@@ -19,7 +19,7 @@ const Home = () => {
                     </button>
                 </a>
             </div>
-        </div>
+        </section>
     );
 };
 
