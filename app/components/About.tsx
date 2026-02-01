@@ -1,5 +1,5 @@
 import React from "react";
-import { home } from "@/data/profile.json";
+import profileData from "@/data/profile.json";
 import Image from "next/image";
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
                 <div className="avatar">
                     <div className="rounded-2xl ring ring-primary ring-offset-2 ring-offset-base-100 w-32 md:w-48 h-32 md:h-48 overflow-hidden">
                         <Image
-                            src={`/images/${home.image}`}
+                            src={`/images/${profileData.image}`}
                             alt="Home Image"
                             width={500}
                             height={300}
@@ -27,7 +27,7 @@ const About = () => {
                         About Me
                     </h2>
                     <p className="text-slate-300 text-lg text-justify leading-relaxed">
-                        {home.bio}
+                        {profileData.bio}
                     </p>
                 </div>
 
@@ -38,21 +38,21 @@ const About = () => {
                         </h3>
                         <div className="space-y-1 text-slate-400">
                             <p className="font-medium text-slate-200">
-                                {home.name}
+                                {profileData.name}
                             </p>
-                            <p>{home.address.street}</p>
+                            <p>{profileData.street}</p>
                             <p>
-                                {home.address.city}, {home.address.state}{" "}
-                                {home.address.zip}
+                                {profileData.city}, {profileData.state}{" "}
+                                {profileData.zip}
                             </p>
-                            <p>{home.phone}</p>
-                            <p>{home.email}</p>
+                            <p>{profileData.phone}</p>
+                            <p>{profileData.email}</p>
                         </div>
                     </div>
 
                     <div className="flex items-end">
                         <a
-                            href={home.resumedownload}
+                            href={profileData.resumeDownload}
                             target="_blank"
                             rel="noopener noreferrer"
                             download

@@ -1,119 +1,94 @@
 {
-    "home": {
-        "name" : "Ryan Syach Dwi Putra",
-        "description": "Welcome!",
-        "image":"profilepic.jpg",
-        "github":"https://github.com/ryansyc",
-        "project":"https://github.com/ryansyc",
-        "bio": "I am a recent graduate passionate about building functional, scalable web applications. With a solid foundation in PHP (Laravel) and JavaScript (React/Node). I’m currently looking for an entry-level role or internship where I can contribute to real-world projects and grow alongside a senior team.",
-        "contactmessage":"Hello, here I am",
-        "email": "ryansyachd@gmail.com",
-        "phone": "+62 821-1346-7641",
-        "address":{
-            "street":"Jl Merkuri Selatan XVIII No. 14",
-            "city":"Bandung",
-            "state":"West Java",
-            "zip": "40295"
-        },
-        "website": "https://github.com/ryansyc",
-        "resumedownload":"https://drive.google.com/file/d/1LpKUrblCqewvO-7zGxk-yGoHZf2jUMMB/view?usp=drive_link",
-        "social":[
-          {
-            "name": "facebook",
-            "url": "https://facebook.com",
-            "className": "fa-brands fa-facebook"
-          },
-          {
-            "name":"twitter",
-            "url":"https://twitter.com",
-            "className":"fa-brands fa-twitter"
-          },
-          {
-            "name":"linkedin",
-            "url":"https://www.linkedin.com",
-            "className":"fa-brands fa-linkedin"
-          },
-          {
-            "name":"instagram",
-            "url":"https://instagram.com",
-            "className":"fa-brands fa-instagram"
-          },
-          {
-            "name":"github",
-            "url":"https://github.com/ryansyc",
-            "className":"fa-brands fa-github"
-          }
-        ]
+  "name": "Ryan Syach Dwi Putra",
+  "description": "Welcome!",
+  "image": "profilepic.jpg",
+  "bio": "I am a recent graduate passionate about building functional, scalable web applications with a solid foundation in PHP (Laravel) and JavaScript (React/Node). Currently looking for an entry-level role or internship to contribute and grow.",
+  "email": "ryansyachd@gmail.com",
+  "phone": "+62 821-1346-7641",
+  "website": "https://github.com/ryansyc",
+  "github": "https://github.com/ryansyc",
+  "street": "Jl Merkuri Selatan XVIII No. 14",
+  "city": "Bandung",
+  "state": "West Java",
+  "zip": "40295",
+  "resumeDownload": "https://drive.google.com/file/d/1LpKUrblCqewvO-7zGxk-yGoHZf2jUMMB/view?usp=drive_link",
+  "social": [
+    {
+      "name": "github",
+      "url": "https://github.com/ryansyc",
+      "icon": "fa-brands fa-github"
     },
-    "resume" : {
-      "education" : [
-            {
-                "school": "Universitas Komputer Indonesia",
-                "degree": "Bachelor degree of Computer Science",
-                "graduated": "August 2025",
-                "description" : "GPA 3.77/4.0"
-            }
-        ],
-        "work": [
-            {
-                "company" : "BPSDM Jawa Barat",
-                "title" : "Software Engineer",
-                "years": "September 2024 - November 2024",
-                "description": "Creating a website and maintenance"
-            }
-        ],
-        "skills": [
-            {
-                "name" : "JAVASCRIPT"
-            },
-            {
-                "name" : "PHP"
-            },
-            {
-                "name" : "PYTHON"
-            },
-            {
-                "name" : "TYPESCRIPT"
-            },
-            {
-                "name" : "LARAVEL"
-            },
-            {
-                "name" : "NODE.JS"
-            },
-            {
-                "name" : "REACT"
-            },
-            {
-                "name" : "STREAMLIT"
-            }
-        ]
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com",
+      "icon": "fa-brands fa-linkedin"
     },
-        "projects": [
-            {
-                "title": "Canadian Wanderlust",
-                "category": "My travel blog for my post-university",
-                "image": "01.jpg",
-                "url": "https://www.canadianwanderlust.com"
-            },
-            {
-                "title":"Fury Fighting Gear",
-                "category":"(offline now) A fighting gear company I started",
-                "image":"02.jpg",
-                "url":"http://www.timbakerdev.com"
-            },
-            {
-            "title":"Original Thai Food",
-            "category":"Website I built for a restaurant I like in Thailand",
-            "image":"03.jpg",
-            "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-            },                        
-            {
-            "title":"Resume Website",
-            "category":"A React based resume website template",
-            "image":"04.jpg",
-            "url":"http://www.timbakerdev.com"
-            }
-        ]
-    
+    {
+      "name": "instagram",
+      "url": "https://instagram.com",
+      "icon": "fa-brands fa-instagram"
+    },
+    {
+      "name": "twitter",
+      "url": "https://twitter.com",
+      "icon": "fa-brands fa-twitter"
+    },
+    {
+      "name": "facebook",
+      "url": "https://facebook.com",
+      "icon": "fa-brands fa-facebook"
+    }
+  ],
+  "education": [
+    {
+      "school": "Universitas Komputer Indonesia",
+      "degree": "Bachelor of Computer Science",
+      "graduated": "August 2025",
+      "gpa": "3.77/4.0"
+    }
+  ],
+  "work": [
+    {
+      "company": "BPSDM Jawa Barat",
+      "title": "Software Engineer",
+      "years": "Sept 2024 - Nov 2024",
+      "description": "Website development and system maintenance."
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "PHP",
+    "Python",
+    "TypeScript",
+    "Laravel",
+    "Node.js",
+    "React",
+    "Streamlit"
+  ],
+  "projects": [
+    {
+      "title": "Canadian Wanderlust",
+      "category": "Travel Blog",
+      "image": "01.jpg",
+      "url": "https://www.canadianwanderlust.com"
+    },
+    {
+      "title": "Fury Fighting Gear",
+      "category": "E-commerce (Offline)",
+      "image": "02.jpg",
+      "url": "http://www.timbakerdev.com"
+    },
+    {
+      "title": "Original Thai Food",
+      "category": "Restaurant Website",
+      "image": "03.jpg",
+      "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+    },
+    {
+      "title": "Resume Website",
+      "category": "Portfolio Template",
+      "image": "04.jpg",
+      "url": "http://www.timbakerdev.com"
+    }
+  ]
 }

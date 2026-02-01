@@ -1,5 +1,5 @@
 import React from "react";
-import { resume } from "@/data/profile.json";
+import profileData from "@/data/profile.json";
 
 const Resume = () => {
     const skillColors = [
@@ -22,7 +22,7 @@ const Resume = () => {
                     </h2>
                 </div>
                 <div className="flex flex-col flex-1 gap-10">
-                    {resume.education.map((edu, index) => (
+                    {profileData.education.map((edu, index) => (
                         <div key={index} className="flex flex-col gap-2">
                             <h3 className="font-bold text-white text-2xl">
                                 {edu.school}
@@ -31,7 +31,7 @@ const Resume = () => {
                                 {edu.degree} • {edu.graduated}
                             </p>
                             <p className="text-slate-300 leading-relaxed">
-                                {edu.description}
+                                {edu.gpa}
                             </p>
                         </div>
                     ))}
@@ -44,7 +44,7 @@ const Resume = () => {
                     </h2>
                 </div>
                 <div className="flex flex-col flex-1 gap-12">
-                    {resume.work.map((work, index) => (
+                    {profileData.work.map((work, index) => (
                         <div className="flex flex-col gap-2" key={index}>
                             <h3 className="font-bold text-white text-2xl">
                                 {work.company}
@@ -67,14 +67,14 @@ const Resume = () => {
                 </div>
                 <div className="flex-1">
                     <div className="flex flex-wrap gap-2 tracking-wider">
-                        {resume.skills.map((skill, index) => (
+                        {profileData.skills.map((skill, index) => (
                             <div
                                 key={index}
                                 className={`${
                                     skillColors[index % skillColors.length]
                                 } px-4 py-2 font-bold text-xs uppercase text-white`}
                             >
-                                {skill.name}
+                                {skill}
                             </div>
                         ))}
                     </div>
