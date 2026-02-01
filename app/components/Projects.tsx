@@ -4,7 +4,10 @@ import Image from "next/image";
 
 const Projects = () => {
     return (
-        <section className="flex flex-col gap-12 bg-slate-900 px-6 md:px-20 lg:px-40 py-16 md:py-24">
+        <section
+            id="projects"
+            className="flex flex-col gap-12 bg-slate-900 px-6 md:px-20 lg:px-40 py-16 md:py-24"
+        >
             <div className="text-center">
                 <p className="font-bold text-white text-2xl uppercase tracking-widest">
                     Check out some of my works

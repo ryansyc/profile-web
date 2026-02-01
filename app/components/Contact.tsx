@@ -4,7 +4,10 @@ import profileData from "@/data/profile.json";
 
 const Contact = () => {
     return (
-        <section className="bg-slate-900 px-6 md:px-20 lg:px-40 py-20">
+        <section
+            id="contact"
+            className="bg-slate-900 px-6 md:px-20 lg:px-40 py-20"
+        >
             <div className="flex lg:flex-row flex-col gap-16 lg:gap-24">
                 <div className="flex-1">
                     <div className="mb-10">
