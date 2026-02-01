@@ -71,8 +71,8 @@ const Contact = () => {
                     </h2>
 
                     <div className="space-y-8">
-                        <div className="group flex items-center gap-6">
-                            <div className="flex justify-center items-center bg-slate-800 group-hover:bg-indigo-500 rounded-none w-14 h-14 text-indigo-500 group-hover:text-white transition-colors shrink-0">
+                        <div className="flex items-center gap-6">
+                            <div className="flex justify-center items-center bg-slate-800 hover:bg-indigo-500 rounded-none w-14 h-14 text-indigo-500 hover:text-white transition-colors shrink-0">
                                 <MapPin size={24} />
                             </div>
                             <div className="flex flex-col">
@@ -85,8 +85,8 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="group flex items-center gap-6">
-                            <div className="flex justify-center items-center bg-slate-800 group-hover:bg-indigo-500 rounded-none w-14 h-14 text-indigo-500 group-hover:text-white transition-colors shrink-0">
+                        <div className="flex items-center gap-6">
+                            <div className="flex justify-center items-center bg-slate-800 hover:bg-indigo-500 rounded-none w-14 h-14 text-indigo-500 hover:text-white transition-colors shrink-0">
                                 <Phone size={24} />
                             </div>
                             <div className="flex flex-col">
@@ -99,8 +99,8 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="group flex items-center gap-6">
-                            <div className="flex justify-center items-center bg-slate-800 group-hover:bg-indigo-500 rounded-none w-14 h-14 text-indigo-500 group-hover:text-white transition-colors shrink-0">
+                        <div className="flex items-center gap-6">
+                            <div className="flex justify-center items-center bg-slate-800 hover:bg-indigo-500 rounded-none w-14 h-14 text-indigo-500 hover:text-white transition-colors shrink-0">
                                 <Mail size={24} />
                             </div>
                             <div className="flex flex-col">
