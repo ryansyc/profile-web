@@ -4,7 +4,7 @@ import { Github } from "lucide-react";
 
 const Home = () => {
     return (
-        <div className="flex flex-col justify-center items-center min-h-screen text-center">
+        <div className="relative flex flex-col justify-center items-center bg-slate-900 px-4 sm:px-12 md:px-20 lg:px-40 min-h-screen overflow-hidden">
             <h1 className="font-bold text-white text-4xl sm:text-5xl md:text-7xl text-center leading-tight">
                 {home.name}
             </h1>
@@ -13,9 +13,9 @@ const Home = () => {
             </p>
             <div className="flex flex-row justify-center items-center gap-3 sm:gap-5 mt-10 w-full">
                 <a href={home.github}>
-                    <button className="px-4 sm:px-8 border-none h-10 sm:h-12 min-h-0 text-white text-sm sm:text-base btn-soft btn btn-primary">
+                    <button className="px-4 sm:px-8 border-none h-10 sm:h-12 min-h-0 text-white text-sm sm:text-base btn btn-primary">
                         <Github size={20} />
-                        Projects
+                        Github
                     </button>
                 </a>
             </div>
