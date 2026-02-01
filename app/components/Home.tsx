@@ -1,6 +1,7 @@
 import React from "react";
 import profileData from "@/data/profile.json";
 import { Github } from "lucide-react";
+import ScrollBottomButton from "./ScrollBottomButton";
 
 const Home = () => {
     return (
@@ -12,13 +13,19 @@ const Home = () => {
                 {profileData.description}
             </p>
             <div className="flex flex-row justify-center items-center gap-3 sm:gap-5 mt-10 w-full">
-                <a href={profileData.github}>
+                <a
+                    href={profileData.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <button className="px-4 sm:px-8 border-none h-10 sm:h-12 min-h-0 text-white text-sm sm:text-base btn btn-primary">
                         <Github size={20} />
                         Github
                     </button>
                 </a>
             </div>
+
+            <ScrollBottomButton />
         </section>
     );
 };

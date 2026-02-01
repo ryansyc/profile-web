@@ -1,6 +1,6 @@
 import React from "react";
 import profileData, { social } from "@/data/profile.json";
-import ScrollToTopButton from "./ScrollToTopButton";
+import ScrollToTopButton from "./ScrollTopButton";
 import * as LucideIcons from "lucide-react";
 
 const Footer = () => {
