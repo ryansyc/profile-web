@@ -14,29 +14,29 @@
   "resumeDownload": "https://drive.google.com/file/d/1LpKUrblCqewvO-7zGxk-yGoHZf2jUMMB/view?usp=drive_link",
   "social": [
     {
-      "name": "github",
-      "url": "https://github.com/ryansyc",
-      "icon": "fa-brands fa-github"
+      "name": "GitHub",
+      "url": "https://github.com",
+      "icon": "Github"
     },
     {
-      "name": "linkedin",
-      "url": "https://www.linkedin.com",
-      "icon": "fa-brands fa-linkedin"
+      "name": "LinkedIn",
+      "url": "https://linkedin.com",
+      "icon": "Linkedin"
     },
     {
-      "name": "instagram",
+      "name": "Instagram",
       "url": "https://instagram.com",
-      "icon": "fa-brands fa-instagram"
+      "icon": "Instagram"
     },
     {
-      "name": "twitter",
+      "name": "Twitter",
       "url": "https://twitter.com",
-      "icon": "fa-brands fa-twitter"
+      "icon": "Twitter"
     },
     {
-      "name": "facebook",
+      "name": "Facebook",
       "url": "https://facebook.com",
-      "icon": "fa-brands fa-facebook"
+      "icon": "Facebook"
     }
   ],
   "education": [
