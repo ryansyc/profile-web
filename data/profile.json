@@ -55,16 +55,21 @@
       "description": "Website development and system maintenance."
     }
   ],
-  "skills": [
-    "JavaScript",
-    "PHP",
-    "Python",
-    "TypeScript",
-    "Laravel",
-    "Node.js",
-    "React",
-    "Streamlit"
-  ],
+  "skills": {
+    "languages": [
+      { "name": "JavaScript", "color": "bg-amber-500" },
+      { "name": "PHP", "color": "bg-indigo-700" },
+      { "name": "Python", "color": "bg-blue-700" },
+      { "name": "TypeScript", "color": "bg-blue-800" }
+    ],
+    "frameworks": [
+      { "name": "Laravel", "color": "bg-red-700" },
+      { "name": "Next.js", "color": "bg-black" },
+      { "name": "Node.js", "color": "bg-green-700" },
+      { "name": "React", "color": "bg-cyan-700" },
+      { "name": "Streamlit", "color": "bg-rose-600" }
+    ]
+  },
   "projects": [
     {
       "title": "Canadian Wanderlust",

@@ -5,7 +5,7 @@ export default function NavBar() {
         { id: "home", label: "HOME" },
         { id: "about", label: "ABOUT" },
         { id: "resume", label: "RESUME" },
-        { id: "projects", label: "PROJECTS" },
+        // { id: "projects", label: "PROJECTS" },
         { id: "contact", label: "CONTACT" },
     ];
 

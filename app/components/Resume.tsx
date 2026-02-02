@@ -2,17 +2,6 @@ import React from "react";
 import profileData from "@/data/profile.json";
 
 const Resume = () => {
-    const skillColors = [
-        "bg-amber-500",
-        "bg-indigo-700",
-        "bg-blue-700",
-        "bg-blue-800",
-        "bg-red-700",
-        "bg-green-700",
-        "bg-cyan-700",
-        "bg-rose-600",
-    ];
-
     return (
         <section
             id="resume"
@@ -68,19 +57,26 @@ const Resume = () => {
                         Skills
                     </h2>
                 </div>
-                <div className="flex-1">
-                    <div className="flex flex-wrap gap-2 tracking-wider">
-                        {profileData.skills.map((skill, index) => (
-                            <div
-                                key={index}
-                                className={`${
-                                    skillColors[index % skillColors.length]
-                                } px-4 py-2 font-bold text-xs uppercase text-white`}
-                            >
-                                {skill}
+                <div className="flex flex-col flex-1 gap-10">
+                    {Object.entries(profileData.skills).map(
+                        ([category, items], index) => (
+                            <div key={index} className="flex flex-col gap-4">
+                                <h3 className="font-bold text-white text-2xl capitalize">
+                                    {category.replace("_", " ")}
+                                </h3>
+                                <div className="flex flex-wrap gap-2 tracking-wider">
+                                    {items.map((skill, i) => (
+                                        <div
+                                            key={i}
+                                            className={`${skill.color} px-4 py-2 font-bold text-xs uppercase text-white`}
+                                        >
+                                            {skill.name}
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
-                        ))}
-                    </div>
+                        ),
+                    )}
                 </div>
             </div>
         </section>

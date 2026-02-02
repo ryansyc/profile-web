@@ -12,7 +12,7 @@ export default function Main() {
             <Home />
             <About />
             <Resume />
-            <Projects />
+            {/* <Projects /> */}
             <Contact />
             <Footer />
         </div>
