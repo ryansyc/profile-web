@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <section
             id="home"
-            className="relative flex flex-col justify-center items-center bg-slate-900 px-4 sm:px-12 md:px-20 lg:px-40 min-h-screen overflow-hidden"
+            className="relative flex flex-col justify-center items-center px-4 sm:px-12 md:px-20 lg:px-40 min-h-screen overflow-hidden"
         >
             <h1 className="font-bold text-white text-4xl sm:text-5xl md:text-7xl text-center leading-tight">
                 {profileData.name}

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ParticleBackground from "./components/ParticleBackground";
 import Home from "./components/Home";
 import About from "./components/About";
 import Resume from "./components/Resume";
@@ -9,7 +8,7 @@ import Footer from "./components/Footer";
 
 export default function Main() {
     return (
-        <div>
+        <div className="relative">
             <Home />
             <About />
             <Resume />

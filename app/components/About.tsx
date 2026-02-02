@@ -6,7 +6,7 @@ const About = () => {
     return (
         <section
             id="about"
-            className="flex md:flex-row flex-col items-center md:items-start gap-12 lg:gap-20 bg-slate-900 px-6 md:px-20 lg:px-40 py-16 md:py-24"
+            className="flex md:flex-row flex-col items-center md:items-start gap-12 lg:gap-20 px-6 md:px-20 lg:px-40 py-16 md:py-24"
         >
             <div className="shrink-0">
                 <div className="avatar">
