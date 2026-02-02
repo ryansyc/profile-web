@@ -5,7 +5,7 @@ const Resume = () => {
     return (
         <section
             id="resume"
-            className="flex flex-col gap-24 px-6 md:px-20 lg:px-40 py-20"
+            className="flex flex-col gap-16 px-6 md:px-20 lg:px-40 py-20"
         >
             <div className="flex md:flex-row flex-col gap-8 md:gap-20">
                 <div className="md:w-48 shrink-0">
